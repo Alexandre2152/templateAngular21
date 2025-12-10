@@ -129,8 +129,9 @@ export class SidebarComponent {
           label: 'Usuários',
           icon: 'people',
           route: '/admin/users',
-          module: 'USERS',
-          requiredPermission: 'READ'
+          // module: 'USERS',
+          // requiredPermission: 'READ'
+          roles: ['ROLE_ADMIN']
         },
         {
           label: 'Perfis',
